@@ -1,0 +1,42 @@
+{
+  "model": "gemma3:1b",
+  "digest": "97558784bdc9175075a72655bf360b15da17df6b3b9e5182af9f8c0c8e58ba7c",
+  "hardware": "CPU-only portable Ollama on this Windows device",
+  "brief_kind": "synthetic original smoke-test brief",
+  "brief": "Hello! I run Willow Florist. I need a one-page website with a wedding bouquet gallery and a contact form. I will supply the logo and six photos. Please make it work on phones. I am not selling online yet. Can you send me a scope and estimated price?",
+  "elapsed_seconds": 3.26,
+  "scope": {
+    "title": "Website Design - Wedding Bouquet Gallery",
+    "summary": "Create a one-page website with a wedding bouquet gallery and contact form.",
+    "deliverables": [
+      {
+        "name": "One-page Website",
+        "evidence": "I need a one-page website with a wedding bouquet gallery and a contact form.",
+        "hours": 1
+      },
+      {
+        "name": "Wedding Bouquet Gallery",
+        "evidence": "I need a one-page website with a wedding bouquet gallery and a contact form.",
+        "hours": 0.5
+      },
+      {
+        "name": "Contact Form",
+        "evidence": "I need a one-page website with a wedding bouquet gallery and a contact form.",
+        "hours": 0.5
+      }
+    ],
+    "questions": [
+      "What is the desired color scheme?",
+      "What is the primary focus of the gallery?"
+    ],
+    "assumptions": [
+      "Logo is provided.",
+      "Contact form is accessible."
+    ],
+    "out_of_scope": [
+      "Online Sales",
+      "Mobile Responsiveness beyond basic phone compatibility"
+    ]
+  },
+  "verification": "Real ScopeKit HTTP endpoint -> local Ollama -> downloaded Gemma weights. Every source quote passed app validation. Single smoke test; not an accuracy benchmark."
+}
